@@ -26,6 +26,6 @@ class TestReuseBrowser:
     def test_reuse_browser(self):
         # # 点击近期里面的创建新主题
         self.driver.find_element_by_xpath('//*[@id="create-topic"]/span').click()
-        sleep(3)
+        sleep(5)
 
 
