@@ -1,14 +1,10 @@
 # _*_ coding:utf-8 _*_
 # @Time: 2020/5/1722:44
 # @Author: Jerry
+
+
 from time import sleep
-
-from selenium.webdriver.common.by import By
-
-from selenium_wework_home.pages.add_member_page import AddMemberPage
-from selenium_wework_home.pages.contacts_page import ContactsPage
 from selenium_wework_home.pages.home_page import HomePage
-from selenium_wework_home.pages.base_page import BasePage
 
 
 class AddMember:
@@ -26,7 +22,3 @@ class AddMember:
         click_add_member.input_title()
         # 点击保存
         click_add_member.click_save()
-
-
-
-
