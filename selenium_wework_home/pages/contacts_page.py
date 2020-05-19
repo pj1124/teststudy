@@ -11,13 +11,13 @@ from selenium_wework_home.pages.delete_member_page import DeleteMemberPage
 
 class ContactsPage(BasePage):
 
-    addmember_loc = (By.CSS_SELECTOR, '.js_has_member>div:nth-child(1)>a:nth-child(2)')
-    deletemember_loc = (By.CSS_SELECTOR, '.js_delete')
+    add_member_loc = (By.CSS_SELECTOR, '.js_has_member>div:nth-child(1)>a:nth-child(2)')
+    delete_member_loc = (By.CSS_SELECTOR, '.js_delete')
 
     def click_add_member(self):
-        self.click(self.addmember_loc)
+        self.click(self.add_member_loc)
         return AddMemberPage(self._driver)
 
     def click_delete_member(self):
-        self.click(self.deletemember_loc)
+        self.click(self.delete_member_loc)
         return DeleteMemberPage

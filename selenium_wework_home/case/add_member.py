@@ -12,12 +12,12 @@ from selenium_wework_home.pages.base_page import BasePage
 
 
 class AddMember:
-    _base_url = 'https://work.weixin.qq.com/wework_admin/frame'
 
     def add_member(self):
         # 点击通讯录
         click_contacts = HomePage().click_contacts()
         # 点击添加成员
+        sleep(2)
         click_add_member = click_contacts.click_add_member()
         # 输入基本信息
         click_add_member.input_username()

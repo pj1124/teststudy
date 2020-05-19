@@ -12,19 +12,19 @@ class AddMemberPage(BasePage):
     acctid_loc = (By.ID, 'memberAdd_acctid')
     phone_loc = (By.ID, 'memberAdd_phone')
     title_loc = (By.ID, 'memberAdd_title')
-    save_loc = (By.ID, '.js_btn_save')
+    save_loc = (By.CSS_SELECTOR, '.js_btn_save')
 
     def input_username(self):
-        self.send_keys(self.username_loc,'test01')
+        self.send_keys(self.username_loc, 'test01')
 
     def input_acctid(self):
-        self.send_keys(self.acctid_loc,'100100')
+        self.send_keys(self.acctid_loc, '100100')
 
     def input_phone(self):
-        self.send_keys(self.phone_loc,'18188888888')
+        self.send_keys(self.phone_loc, '18188888888')
 
     def input_title(self):
-        self.send_keys(self.title_loc,'CTO')
+        self.send_keys(self.title_loc, 'CTO')
 
     def click_save(self):
         self.click(self.save_loc)

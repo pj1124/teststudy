@@ -32,21 +32,21 @@ class BasePage:
             self._driver.get(self._base_url)
 
     # 重写元素定位方法
-    def find_element(self, *loc):
+    def find(self, *loc):
         try:
             # 显示等待时间为5秒，并且检查元素是否存在以及元素是否可见
-            element = WebDriverWait(self._driver,5).until(
-                ec.presence_of_element_located(*loc)
+            element = WebDriverWait(self._driver, 3).until(
+                ec.element_to_be_clickable(*loc)
             )
             return element
         except:
            print("找不到元素"+str(loc))
 
-    def find_elements(self, *loc):
+    def finds(self, *loc):
         try:
             # 显示等待时间为5秒，并且检查元素是否存在以及元素是否可见
-            elements = WebDriverWait(self._driver,5).until(
-                ec.presence_of_all_elements_located(*loc)
+            elements = WebDriverWait(self._driver, 10, 0.5).until(
+                ec.visibility_of_all_elements_located(*loc)
             )
             return elements
         except:
@@ -54,14 +54,14 @@ class BasePage:
 
     # 重写元素点击方法
     def click(self,element):
-        self.find_element(element).click()
+        self.find(element).click()
 
     # 重写输入值的方法
-    def send_keys(self, keys, *loc,clear=True):
+    def send_keys(self, loc, keys, clear=True):
         try:
             if clear:
-                # self._driver.find_element(*loc).clear()
-                self._driver.find_element(*loc).send_keys(keys)
+                self.find(loc).clear()
+                self.find(loc).send_keys(keys)
         except AttributeError:
             print(u"输入错误:"+str(loc)+keys)
 
