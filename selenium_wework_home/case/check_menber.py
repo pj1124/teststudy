@@ -40,7 +40,7 @@ class CheckMember(BasePage):
         num = self.get_currpage_members_number()
         for i in range(num):
             i = i + 1
-            ele = '.js_list>tr:nth-child(%s)' % (i)
+            ele = '.member_colRight_memberTable_td:nth-child(%s)' % (i)
             loc = (By.CSS_SELECTOR, ele)
             container = self.finds(loc)
             for words in container:
