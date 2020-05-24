@@ -13,4 +13,4 @@ class LoginPage(BasePage):
 
     def register_click(self):
         self.click(self.register_loc)
-        return RegisterPage(self._driver)
+        return RegisterPage()

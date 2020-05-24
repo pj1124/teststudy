@@ -19,11 +19,11 @@ class HomePage(BasePage):
 
     def click_home(self):
         self.click(self.home_loc)
-        return HomePage(self._driver)
+        return HomePage()
 
     def click_contacts(self):
         self.click(self.contacts_loc)
-        return ContactsPage(self._driver)
+        return ContactsPage()
 
     def click_apps(self):
         self.click(self.apps_loc)

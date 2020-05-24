@@ -16,8 +16,8 @@ class ContactsPage(BasePage):
 
     def click_add_member(self):
         self.click(self.add_member_loc)
-        return AddMemberPage(self._driver)
+        return AddMemberPage()
 
     def click_delete_member(self):
         self.click(self.delete_member_loc)
-        return DeleteMemberPage
+        return DeleteMemberPage()

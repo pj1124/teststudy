@@ -15,8 +15,8 @@ class IndexPage(BasePage):
 
     def login_click(self):
         self.click(self.login_loc)
-        return LoginPage(self._driver)
+        return LoginPage()
 
     def register_click(self):
         self.click(self.register_loc)
-        return RegisterPage(self._driver)
+        return RegisterPage()
