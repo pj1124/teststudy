@@ -11,5 +11,4 @@ class BasePage:
     def __init__(self):
         self.d = u2.connect('127.0.0.1:7555')
         self.d.app_start('com.tencent.wework')
-        self.d.implicitly_wait(15)
-
+        self.d.implicitly_wait(5)
