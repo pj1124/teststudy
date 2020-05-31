@@ -4,10 +4,10 @@
 from time import sleep
 
 import pytest
-from app.case.add_member import AddContacts
-from app.case.delete_member import DeleteContacts
-from app.common.operation_elements import Elements
-from app.pages.add_manually import AddManually
+from wework.case.add_member import AddContacts
+from wework.case.delete_member import DeleteContacts
+from wework.common.operation_elements import Elements
+from wework.pages.add_manually import AddManually
 
 
 class TestOperationMember:

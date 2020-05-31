@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bdc301b-b40b-4da7-8746-1f7d190e5a5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/testcase/test_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/pages/basepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/pages/main_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/pages/market_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/pages/search_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/testcase/test_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_wework_home/case/check_menber.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_wework_home/case/check_menber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/case/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/case/add_member.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/case/add_member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/case/delete_member.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/case/delete_member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/operation_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/common/operation_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/add_manually.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/add_manually.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/add_member.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/add_member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/address_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/address_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/edit_member.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/edit_member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/member_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/member_details.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/member_details_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/pages/member_details_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testcase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/testcase/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testcase/test_operation_contacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/testcase/test_operation_contacts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testcase/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/wework/testcase/test_search.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,38 +38,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/testcase/test_search.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xueqiu/pages/market_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="378">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
-                <element signature="e#67#80#0" expanded="true" />
+                <element signature="e#64#106#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/delete_member.py">
+        <entry file="file://$PROJECT_DIR$/xueqiu/pages/main_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="378">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#65#108#0" expanded="true" />
+                <element signature="e#65#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/test_reuse_browser.py">
+        <entry file="file://$PROJECT_DIR$/xueqiu/pages/search_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="49" />
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/watcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="167" column="35" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xueqiu/testcase/test_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#65#87#0" expanded="true" />
+                <element signature="e#64#77#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wework/testcase/test_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="67" />
+              <folding>
+                <element signature="e#66#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xueqiu/pages/basepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -75,7 +137,6 @@
         <option value="$PROJECT_DIR$/web/test_reuse_browser.py" />
         <option value="$PROJECT_DIR$/selenium_wework_home/pages/add_member_page.py" />
         <option value="$PROJECT_DIR$/selenium_wework_home/pages/delete_member_page.py" />
-        <option value="$PROJECT_DIR$/selenium_wework_home/pages/contacts_page.py" />
         <option value="$PROJECT_DIR$/selenium_wework_home/case/test.py" />
         <option value="$PROJECT_DIR$/selenium_wework_home/case/delete_member.py" />
         <option value="$PROJECT_DIR$/selenium_wework_home/testcase/test_delete_member.py" />
@@ -86,6 +147,39 @@
         <option value="$PROJECT_DIR$/app/TestCase.py" />
         <option value="$PROJECT_DIR$/app/testcase/.pytest_cache/w.py" />
         <option value="$PROJECT_DIR$/app/testcase/test_search.py" />
+        <option value="$PROJECT_DIR$/selenium_wework_home/pages/contacts_page.py" />
+        <option value="$PROJECT_DIR$/selenium_wework_home/pages/home_page.py" />
+        <option value="$PROJECT_DIR$/selenium_wework_home/pages/index_page.py" />
+        <option value="$PROJECT_DIR$/selenium_wework_home/pages/login_page.py" />
+        <option value="$PROJECT_DIR$/app/pages/contacts_page.py" />
+        <option value="$PROJECT_DIR$/app/pages/home.py" />
+        <option value="$PROJECT_DIR$/app/testcase/.pytest_cache/test_operation_member.py" />
+        <option value="$PROJECT_DIR$/app/testcase/test_operation_member.py" />
+        <option value="$PROJECT_DIR$/app/pages/member_details.py" />
+        <option value="$PROJECT_DIR$/app/pages/member_details_0peration.py" />
+        <option value="$PROJECT_DIR$/app/pages/main.py" />
+        <option value="$PROJECT_DIR$/app/pages/add_member.py" />
+        <option value="$PROJECT_DIR$/app/pages/add_manually.py" />
+        <option value="$PROJECT_DIR$/app/case/add_member.py" />
+        <option value="$PROJECT_DIR$/app/pages/member_details_operation.py" />
+        <option value="$PROJECT_DIR$/app/pages/edit_member.py" />
+        <option value="$PROJECT_DIR$/app/pages/address_list.py" />
+        <option value="$PROJECT_DIR$/app/case/delete_member.py" />
+        <option value="$PROJECT_DIR$/app/pages/base_page.py" />
+        <option value="$PROJECT_DIR$/app/testcase/test_operation_contacts.py" />
+        <option value="$PROJECT_DIR$/app/common/operation_elements.py" />
+        <option value="$PROJECT_DIR$/wework/testcase/test_operation_contacts.py" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/search.py" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/market.py" />
+        <option value="$PROJECT_DIR$/wework/common/operation_elements.py" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/ttt.py" />
+        <option value="$PROJECT_DIR$/xueqiu/testcase/test.py" />
+        <option value="$PROJECT_DIR$/xueqiu/testcase/test_t.py" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/market_page.py" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/main_page.py" />
+        <option value="$PROJECT_DIR$/xueqiu/testcase/test_search.py" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/search_page.py" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/basepage.py" />
       </list>
     </option>
   </component>
@@ -100,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,31 +205,35 @@
             <path>
               <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-test" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-test" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study-test\app\testcase" />
       <recent name="E:\Testing" />
     </key>
   </component>
@@ -159,19 +259,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_search.TestSearch">
-    <configuration name="pytest for test_delete_member.TestDeleteMember" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="search_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_wework_home/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delete_member.TestDeleteMember&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xueqiu/pages/search_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_search.TestSearch" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -179,7 +285,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -189,12 +295,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_search.TestSearch.test_cancel_adding" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search.TestSearch.test_cancel_adding&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_search.TestSearch.test_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -204,43 +325,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for w.TestXueQiu" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/testcase/.pytest_cache" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;w.TestXueQiu&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_search.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/app/testcase/test_search.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/xueqiu/testcase/test_search.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_search.TestSearch" />
+        <item itemvalue="Python tests.pytest for test_search.TestSearch.test_cancel_adding" />
         <item itemvalue="Python tests.pytest for test_search.TestSearch.test_search" />
+        <item itemvalue="Python.search_page" />
         <item itemvalue="Python tests.pytest in test_search.py" />
-        <item itemvalue="Python tests.pytest for w.TestXueQiu" />
-        <item itemvalue="Python tests.pytest for test_delete_member.TestDeleteMember" />
       </list>
     </recent_temporary>
   </component>
@@ -276,57 +382,77 @@
       <option name="project" value="LOCAL" />
       <updated>1589909987272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="appium 雪球实战（一）课后作业">
+      <created>1590231000518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590231000518</updated>
+    </task>
+    <task id="LOCAL-00005" summary="appium 企业微信实战（一）课后作业">
+      <created>1590339291557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590339291558</updated>
+    </task>
+    <task id="LOCAL-00006" summary="appium 企业微信实战（二）课后作业">
+      <created>1590423037567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590423037568</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2020.05.23 at 18h 29m 15s.xml">
+    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2020.05.30 at 21h 09m 51s.xml">
       <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2020.05.23 at 18h 31m 05s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 21m 35s.xml">
+      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_search_py - 2020.05.23 at 18h 34m 46s.xml">
-      <configuration name="pytest in test_search.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 30m 02s.xml">
+      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2020.05.23 at 18h 36m 24s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 31m 24s.xml">
+      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2020.05.23 at 18h 43m 37s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 31m 44s.xml">
+      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch - 2020.05.23 at 18h 44m 39s.xml">
+    <history-entry file="pytest_for_test_search_TestSearch - 2020.05.30 at 21h 31m 59s.xml">
       <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2020.05.23 at 18h 45m 35s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch - 2020.05.23 at 18h 46m 21s.xml">
+    <history-entry file="pytest_for_test_search_TestSearch - 2020.05.30 at 21h 33m 30s.xml">
       <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2020.05.23 at 18h 47m 00s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 33m 53s.xml">
+      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch - 2020.05.23 at 18h 48m 06s.xml">
+    <history-entry file="pytest_for_test_search_TestSearch - 2020.05.30 at 21h 34m 39s.xml">
+      <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_search_TestSearch - 2020.05.30 at 21h 39m 09s.xml">
       <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.3264642" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.3308026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6084599" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.5075922" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" weight="0.329718" />
@@ -335,18 +461,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.2494577" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.31236443" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6084599" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.5075922" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" weight="0.329718" />
@@ -359,7 +485,10 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="企业微信实战作业" />
     <MESSAGE value="企业微信实战作业(修改）" />
-    <option name="LAST_COMMIT_MESSAGE" value="企业微信实战作业(修改）" />
+    <MESSAGE value="appium 雪球实战（一）课后作业" />
+    <MESSAGE value="appium 企业微信实战（一）课后作业" />
+    <MESSAGE value="appium 企业微信实战（二）课后作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="appium 企业微信实战（二）课后作业" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
@@ -369,16 +498,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/home_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/index_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/test.py" />
+    <entry file="file://$PROJECT_DIR$/app/TestCase.py" />
+    <entry file="file://$PROJECT_DIR$/app/testcase/.pytest_cache/w.py" />
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/delete_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#65#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="351">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="e#65#108#0" expanded="true" />
           </folding>
@@ -388,35 +524,79 @@
     <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/register_page.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/delete_member_page.py">
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/add_member.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#66#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/contacts_page.py">
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/check_menber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#66#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1188">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/test.py" />
-    <entry file="file://$PROJECT_DIR$/app/TestCase.py" />
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/delete_member.py">
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/index_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/case/add_member.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/xpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="480" column="8" selection-start-line="480" selection-start-column="8" selection-end-line="480" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/case/delete_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
-            <element signature="e#65#108#0" expanded="true" />
+            <element signature="e#65#111#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/testcase/test_t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#64#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/common/operation_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/ttt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -430,43 +610,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/base_page.py">
+    <entry file="file://$PROJECT_DIR$/web/test_tencent_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#65#95#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-162" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/check_menber.py">
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/testcase/test_delete_member.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/add_member_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="e#65#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/add_member.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="432">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_wework_home/testcase/test_add_member.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="378">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#66#124#0" expanded="true" />
@@ -474,30 +632,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wework_home/testcase/test_delete_member.py">
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/add_member_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/testcase/.pytest_cache/w.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="57" />
           <folding>
-            <element signature="e#214#227#0" expanded="true" />
+            <element signature="e#65#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/testcase/test_search.py">
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <element signature="e#65#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/contacts_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#66#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/delete_member_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#66#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wework_home/pages/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/pages/add_manually.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/pages/add_member.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
-            <element signature="e#67#80#0" expanded="true" />
+            <element signature="e#64#86#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/pages/address_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/pages/edit_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/pages/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/pages/member_details.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/pages/member_details_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/testcase/test_operation_contacts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="e#64#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/market_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#64#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/_selector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3281">
+          <caret line="468" column="12" selection-start-line="468" selection-start-column="8" selection-end-line="468" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/testcase/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="67" />
+          <folding>
+            <element signature="e#66#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#65#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/testcase/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#64#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="1678" column="8" selection-start-line="1678" selection-start-column="8" selection-end-line="1678" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/search_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/watcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="167" column="35" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>

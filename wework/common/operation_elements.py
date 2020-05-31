@@ -2,7 +2,7 @@
 # @Time: 2020/5/2521:05
 # @Author: Jerry
 
-from app.pages.base_page import BasePage
+from wework.pages.base_page import BasePage
 
 
 class Elements(BasePage):

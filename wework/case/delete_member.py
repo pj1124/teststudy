@@ -2,11 +2,11 @@
 # @Time: 2020/5/2422:38
 # @Author: Jerry
 
-from app.pages.address_list import AddressList
-from app.pages.edit_member import EditMember
-from app.pages.main import Main
-from app.pages.member_details import MemberDetails
-from app.pages.member_details_operation import MemberDetailsOperation
+from wework.pages.address_list import AddressList
+from wework.pages.edit_member import EditMember
+from wework.pages.main import Main
+from wework.pages.member_details import MemberDetails
+from wework.pages.member_details_operation import MemberDetailsOperation
 
 
 class DeleteContacts:

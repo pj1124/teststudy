@@ -2,9 +2,9 @@
 # @Time: 2020/5/2420:15
 # @Author: Jerry
 
-from app.pages.add_member import AddMember
-from app.pages.base_page import BasePage
-from app.pages.member_details import MemberDetails
+from wework.pages.add_member import AddMember
+from wework.pages.base_page import BasePage
+from wework.pages.member_details import MemberDetails
 
 
 class AddressList(BasePage):

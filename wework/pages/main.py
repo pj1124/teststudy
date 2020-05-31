@@ -2,8 +2,8 @@
 # @Time: 2020/5/2420:16
 # @Author: Jerry
 
-from app.pages.address_list import AddressList
-from app.pages.base_page import BasePage
+from wework.pages.address_list import AddressList
+from wework.pages.base_page import BasePage
 
 
 class Main(BasePage):

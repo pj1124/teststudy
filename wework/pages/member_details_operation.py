@@ -2,9 +2,9 @@
 # @Time: 2020/5/2422:25
 # @Author: Jerry
 
-from app.pages.base_page import BasePage
-from app.pages.edit_member import EditMember
-# from app.pages.member_details import MemberDetails
+from wework.pages.base_page import BasePage
+from wework.pages.edit_member import EditMember
+# from wework.pages.member_details import MemberDetails
 
 
 class MemberDetailsOperation(BasePage):

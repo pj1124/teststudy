@@ -3,7 +3,7 @@
 # @Author: Jerry
 
 
-from app.pages.main import Main
+from wework.pages.main import Main
 
 
 class AddContacts:

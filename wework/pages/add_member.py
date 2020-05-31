@@ -3,8 +3,8 @@
 # @Author: Jerry
 from time import sleep
 
-from app.pages.add_manually import AddManually
-from app.pages.base_page import BasePage
+from wework.pages.add_manually import AddManually
+from wework.pages.base_page import BasePage
 
 
 class AddMember(BasePage):
