@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bdc301b-b40b-4da7-8746-1f7d190e5a5e" name="Default Changelist" comment="" />
+    <list default="true" id="3bdc301b-b40b-4da7-8746-1f7d190e5a5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/xueqiu/common/public_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/confing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/confing/main.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/confing/market.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/confing/search.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/confing/yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiu/pages/close_popup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xueqiu/pages/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/xueqiu/pages/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xueqiu/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/xueqiu/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xueqiu/pages/market_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/xueqiu/pages/market_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xueqiu/pages/search_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/xueqiu/pages/search_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xueqiu/testcase/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/xueqiu/testcase/test_search.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,40 +25,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xueqiu/pages/market_page.py">
+        <entry file="file://$PROJECT_DIR$/xueqiu/pages/search_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xueqiu/pages/main_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="513">
+              <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding>
-                <element signature="e#65#107#0" expanded="true" />
+                <element signature="e#64#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xueqiu/pages/search_page.py">
+        <entry file="file://$PROJECT_DIR$/xueqiu/confing/search.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="108">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/watcher.py">
+        <entry file="file://$PROJECT_DIR$/xueqiu/confing/market.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4320">
-              <caret line="167" column="35" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
+            <state>
+              <caret column="48" selection-start-column="48" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -52,8 +57,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xueqiu/testcase/test_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="199">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xueqiu/pages/main_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#64#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xueqiu/confing/main.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="66" lean-forward="true" selection-start-column="66" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -62,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/wework/testcase/test_search.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="783">
-              <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="67" />
+              <caret line="30" column="67" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="67" />
               <folding>
                 <element signature="e#66#79#0" expanded="true" />
               </folding>
@@ -70,11 +96,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xueqiu/pages/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="513">
+              <caret line="19" column="75" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xueqiu/pages/close_popup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#63#85#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/test_reuse_browser.py" />
-        <option value="$PROJECT_DIR$/selenium_wework_home/pages/add_member_page.py" />
-        <option value="$PROJECT_DIR$/selenium_wework_home/pages/delete_member_page.py" />
         <option value="$PROJECT_DIR$/selenium_wework_home/case/test.py" />
         <option value="$PROJECT_DIR$/selenium_wework_home/case/delete_member.py" />
         <option value="$PROJECT_DIR$/selenium_wework_home/testcase/test_delete_member.py" />
@@ -139,17 +174,25 @@
         <option value="$PROJECT_DIR$/xueqiu/pages/market.py" />
         <option value="$PROJECT_DIR$/wework/common/operation_elements.py" />
         <option value="$PROJECT_DIR$/xueqiu/pages/ttt.py" />
-        <option value="$PROJECT_DIR$/xueqiu/testcase/test.py" />
         <option value="$PROJECT_DIR$/xueqiu/testcase/test_t.py" />
-        <option value="$PROJECT_DIR$/xueqiu/pages/market_page.py" />
-        <option value="$PROJECT_DIR$/xueqiu/pages/main_page.py" />
         <option value="$PROJECT_DIR$/xueqiu/testcase/test_search.py" />
+        <option value="$PROJECT_DIR$/xueqiu/common.py" />
+        <option value="$PROJECT_DIR$/xueqiu/testcase/log.py" />
+        <option value="$PROJECT_DIR$/xueqiu/common/public_method.py" />
+        <option value="$PROJECT_DIR$/xueqiu/confing/yaml.py" />
+        <option value="$PROJECT_DIR$/xueqiu/testcase/test.py" />
+        <option value="$PROJECT_DIR$/xueqiu/confing/market.yaml" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/market_page.py" />
+        <option value="$PROJECT_DIR$/xueqiu/confing/search.yaml" />
         <option value="$PROJECT_DIR$/xueqiu/pages/search_page.py" />
         <option value="$PROJECT_DIR$/xueqiu/pages/basepage.py" />
+        <option value="$PROJECT_DIR$/xueqiu/confing/main.yaml" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/main_page.py" />
+        <option value="$PROJECT_DIR$/xueqiu/pages/close_popup.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="25" />
     <option name="width" value="1575" />
@@ -160,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,10 +210,40 @@
               <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-test" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-test" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-test" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="confing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-test" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-test" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,6 +252,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study-test\xueqiu\confing" />
       <recent name="E:\study-test\app\testcase" />
       <recent name="E:\Testing" />
     </key>
@@ -196,26 +269,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_search.TestSearch">
-    <configuration name="search_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest for test_search.TestSearch.test_adding">
+    <configuration name="pytest for test.TestA.test_aa" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xueqiu/pages/search_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestA.test_aa&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_search.TestSearch" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -230,6 +297,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_search.TestSearch&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_search.TestSearch.test_adding" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search.TestSearch.test_adding&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -263,28 +345,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_search.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiu/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/xueqiu/testcase/test_search.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_search.TestSearch.test_adding" />
         <item itemvalue="Python tests.pytest for test_search.TestSearch" />
+        <item itemvalue="Python tests.pytest for test.TestA.test_aa" />
         <item itemvalue="Python tests.pytest for test_search.TestSearch.test_cancel_adding" />
         <item itemvalue="Python tests.pytest for test_search.TestSearch.test_search" />
-        <item itemvalue="Python.search_page" />
-        <item itemvalue="Python tests.pytest in test_search.py" />
       </list>
     </recent_temporary>
   </component>
@@ -352,24 +419,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2020.05.30 at 21h 09m 51s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 21m 35s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 30m 02s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 31m 24s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_cancel_adding - 2020.05.30 at 21h 31m 44s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_cancel_adding" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch - 2020.05.30 at 21h 31m 59s.xml">
-      <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_search_TestSearch - 2020.05.30 at 21h 33m 30s.xml">
       <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
     </history-entry>
@@ -382,22 +431,41 @@
     <history-entry file="pytest_for_test_search_TestSearch - 2020.05.30 at 21h 39m 09s.xml">
       <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_TestA_test_aa - 2020.06.01 at 22h 13m 06s.xml">
+      <configuration name="pytest for test.TestA.test_aa" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestA_test_aa - 2020.06.01 at 22h 13m 23s.xml">
+      <configuration name="pytest for test.TestA.test_aa" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_search_TestSearch - 2020.06.01 at 22h 29m 47s.xml">
+      <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_search_TestSearch - 2020.06.01 at 23h 19m 39s.xml">
+      <configuration name="pytest for test_search.TestSearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_search_TestSearch_test_adding - 2020.06.01 at 23h 20m 59s.xml">
+      <configuration name="pytest for test_search.TestSearch.test_adding" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_search_TestSearch_test_adding - 2020.06.01 at 23h 26m 33s.xml">
+      <configuration name="pytest for test_search.TestSearch.test_adding" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.3308026" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.30477223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6084599" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.61713666" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.5075922" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" weight="0.329718" />
@@ -437,13 +505,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="UI测试框架课后作业" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="953" column="8" selection-start-line="953" selection-start-column="8" selection-end-line="953" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium_wework_home/case/test.py" />
     <entry file="file://$PROJECT_DIR$/app/TestCase.py" />
     <entry file="file://$PROJECT_DIR$/app/testcase/.pytest_cache/w.py" />
@@ -679,65 +740,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="1678" column="8" selection-start-line="1678" selection-start-column="8" selection-end-line="1678" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xueqiu/pages/market_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xueqiu/pages/main_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#65#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xueqiu/pages/search_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/watcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="167" column="35" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xueqiu/testcase/test_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wework/testcase/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
-          <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="67" />
+          <caret line="30" column="67" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="67" />
           <folding>
             <element signature="e#66#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/testcase/log.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/confing/yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#64#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/testcase/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/confing/market.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/confing/search">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/market_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#64#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/confing/search.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/watcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2295">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="1679" column="19" selection-start-line="1679" selection-start-column="19" selection-end-line="1679" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/common/public_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xueqiu/pages/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="513">
+          <caret line="19" column="75" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/search_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <element signature="e#64#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/confing/main.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" lean-forward="true" selection-start-column="66" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#64#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/testcase/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/pages/close_popup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#63#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

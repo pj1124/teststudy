@@ -1,17 +1,17 @@
 # _*_ coding:utf-8 _*_
 # @Time: 2020/5/3016:18
 # @Author: Jerry
-
+from xueqiu.confing.yaml import Config
 from xueqiu.pages.basepage import BasePage
 
 
 class Search(BasePage):
 
-    send_key = {'resourceId': 'com.xueqiu.android:id/search_input_text'}
-    text_1 = {'resourceId': 'com.xueqiu.android:id/code', 'text': 'BABA'}
-    text_2 = {'resourceId': 'com.xueqiu.android:id/stockCode', 'text': 'BABA'}
-    adding = {'text': '加自选'}
-    cancel = {'text': '已添加'}
+    send_key = Config().read_data('search')['send_key']
+    text_1 = Config().read_data('search')['text_1']
+    text_2 = Config().read_data('search')['text_2']
+    adding = Config().read_data('search')['adding']
+    cancel = Config().read_data('search')['cancel']
 
     def send(self,keys, t):
         self.element(self.send_key).send_keys(keys)

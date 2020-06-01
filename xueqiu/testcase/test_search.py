@@ -17,12 +17,12 @@ class TestSearch:
     def teardown(self):
         self.base_page.app_stop()
 
-    # @pytest.mark.parametrize('company, code', data_list)
-    # def test_adding(self, company, code):
-    #     a = Main().click_market().click_search()
-    #     a.send(company, code)
-    #     a.click_adding(code)
-    #     assert "添加成功" in self.base_page.get_toast_message()
+    @pytest.mark.parametrize('company, code', data_list)
+    def test_adding(self, company, code):
+        a = Main().click_market().click_search()
+        a.send(company, code)
+        a.click_adding(code)
+        assert "添加成功" in self.base_page.get_toast_message()
 
     @pytest.mark.parametrize('company, code', data_list)
     def test_cancel_adding(self, company, code):
