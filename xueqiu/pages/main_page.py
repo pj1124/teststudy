@@ -11,6 +11,5 @@ class Main(BasePage):
     marker = Config().read_data('main')['marker']
 
     def click_market(self):
-        a = self.element(self.marker).click()
-        print("11111:"+a)
+        self.element(self.marker).click()
         return Market()

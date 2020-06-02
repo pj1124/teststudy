@@ -15,10 +15,6 @@ class BasePage:
     def app_stop(self):
         return self.d.app_stop('com.xueqiu.android')
 
-    # 使用观察者监听弹窗
-    def watcher(self):
-        self.d.watcher("WATCHER_NAME").when(text="跳过广告").click(text="跳过广告")
-
     # 重写元素定位方法
     def element(self, dic):
         return self.d(**dic)

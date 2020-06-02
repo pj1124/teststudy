@@ -6,16 +6,19 @@ import pytest
 
 from xueqiu.pages.basepage import BasePage
 from xueqiu.pages.main_page import Main
+from xueqiu.pages.watcher import Watcher
 
 
 class TestSearch:
     data_list = [('阿里巴巴', 'BABA'), ('京东', 'JD'), ('百度', 'BIDU'), ('腾讯控股ADR', 'TCEHY')]
 
-    def setup(self):
+    def setup_class(self):
         self.base_page = BasePage()
+        Watcher().open_watcher()
 
-    def teardown(self):
+    def teardown_class(self):
         self.base_page.app_stop()
+        Watcher().close_watcher()
 
     @pytest.mark.parametrize('company, code', data_list)
     def test_adding(self, company, code):
