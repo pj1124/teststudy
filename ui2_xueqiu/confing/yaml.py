@@ -7,7 +7,7 @@ import yaml
 from decimal import Decimal  # 如果yaml文件中有Decimal数据格式时需要有这个import
 
 # 获取config目录的绝对路径
-from xueqiu.common.public_method import PublicMethod
+from ui2_xueqiu.common.public_method import PublicMethod
 
 config_path = os.path.split(os.path.realpath(__file__))[0]
 

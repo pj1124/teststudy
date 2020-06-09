@@ -4,9 +4,9 @@
 
 import pytest
 
-from xueqiu.pages.basepage import BasePage
-from xueqiu.pages.main_page import Main
-from xueqiu.pages.watcher import Watcher
+from ui2_xueqiu.pages.basepage import BasePage
+from ui2_xueqiu.pages.main_page import Main
+from ui2_xueqiu.pages.watcher import Watcher
 
 
 class TestSearch:

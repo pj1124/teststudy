@@ -1,0 +1,2 @@
+blacklist:
+  - //*[@resource-id="com.ui2_xueqiu.android:id/tv_skip"

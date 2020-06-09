@@ -1,8 +1,8 @@
 # _*_ coding:utf-8 _*_
 # @Time: 2020/6/221:39
 # @Author: Jerry
-from xueqiu.confing.yaml import Config
-from xueqiu.pages.basepage import BasePage
+from ui2_xueqiu.confing.yaml import Config
+from ui2_xueqiu.pages.basepage import BasePage
 
 
 class Watcher(BasePage):

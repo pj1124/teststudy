@@ -1,0 +1,5 @@
+send_key: {'resourceId': 'com.ui2_xueqiu.android:id/search_input_text'}
+text_1: {'resourceId': 'com.ui2_xueqiu.android:id/code', 'text': 'BABA'}
+text_2: {'resourceId': 'com.ui2_xueqiu.android:id/stockCode', 'text': 'BABA'}
+adding: {'text': '加自选'}
+cancel: {'text': '已添加'}

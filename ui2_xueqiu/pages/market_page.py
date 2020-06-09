@@ -1,9 +1,9 @@
 # _*_ coding:utf-8 _*_
 # @Time: 2020/5/3016:17
 # @Author: Jerry
-from xueqiu.confing.yaml import Config
-from xueqiu.pages.basepage import BasePage
-from xueqiu.pages.search_page import Search
+from ui2_xueqiu.confing.yaml import Config
+from ui2_xueqiu.pages.basepage import BasePage
+from ui2_xueqiu.pages.search_page import Search
 
 
 class Market(BasePage):

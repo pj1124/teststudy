@@ -9,11 +9,11 @@ class BasePage:
 
     def __init__(self):
         self.d = u2.connect('127.0.0.1:7555')
-        self.d.app_start('com.xueqiu.android')
+        self.d.app_start('com.ui2_xueqiu.android')
         self.d.implicitly_wait(15)
 
     def app_stop(self):
-        return self.d.app_stop('com.xueqiu.android')
+        return self.d.app_stop('com.ui2_xueqiu.android')
 
     # 重写元素定位方法
     def element(self, dic):

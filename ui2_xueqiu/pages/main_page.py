@@ -2,9 +2,9 @@
 # @Time: 2020/5/3016:39
 # @Author: Jerry
 
-from xueqiu.confing.yaml import Config
-from xueqiu.pages.basepage import BasePage
-from xueqiu.pages.market_page import Market
+from ui2_xueqiu.confing.yaml import Config
+from ui2_xueqiu.pages.basepage import BasePage
+from ui2_xueqiu.pages.market_page import Market
 
 
 class Main(BasePage):
